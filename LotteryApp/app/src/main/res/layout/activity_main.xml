@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/lotto_num"
+      android:gravity="center"
+      android:layout_marginTop="30dp"
+      android:textSize="36sp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/gen_num"
+      android:text="번호 생성"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:id="@+id/save_num"
+      android:text="번호 저장"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    android:id="@+id/s_num"
+    android:text="저장된 번호 확인" />
+
+  <Button
+      android:id="@+id/winning"
+      android:text="당첨된 번호 확인"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+</LinearLayout>
