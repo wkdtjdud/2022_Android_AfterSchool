@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+
+    <!--       app:srcCompat="@android:drawable/001"-->
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="233dp"
+        android:layout_height="218dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/go"
+
+        />
+
+    <EditText
+        android:textColor="#5E000000"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ed_Id"
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="아이디"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <EditText
+        android:textColor="#5E000000"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="비밀번호"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="266dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#00BCD4"
+        android:text="로그인"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <CheckBox
+        android:layout_margin="16dp"
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인 상태 유지하기"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="597dp"
+        android:buttonTint="#00BCD4"
+       />
+
+    <TextView
+       android:layout_marginTop="30dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아직 회원이 아니신가요? "
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <TextView
+        android:textSize="15dp"
+        android:textColor="#00BCD4"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 가입하기"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+
+</LinearLayout>
